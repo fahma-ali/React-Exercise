@@ -14,6 +14,7 @@ const ShoppingCart = () => {
       qty: 1,
     };
     setListCart([...listCart, newShoppingCart]);
+    setCartInput({name:"", price: ""});
   };
   const handleChange = (event) => {
     setCartInput({ ...cartInput, [event.target.name]: event.target.value });
@@ -49,7 +50,7 @@ const ShoppingCart = () => {
         placeholder="Enter Product"
       />
       <input
-        type="text"
+        type="number"
         name="price"
         id="price"
         onChange={handleChange}
