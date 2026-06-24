@@ -56,6 +56,7 @@ const ShoppingCart = () => {
           type="number"
           name="price"
           id="price"
+          min="1"
           onChange={handleChange}
           value={cartInput.price}
           placeholder="Enter Product Price"
