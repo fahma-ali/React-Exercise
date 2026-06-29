@@ -2,7 +2,6 @@ import { useState } from "react"
 
 const DaynamicCount=()=>{
     const[count,setCount]=useState(0);
-    const[isValue,setValue]=useState(false)
     const handleIncrement=()=>{
         setCount((pre)=>pre+1);
     }
