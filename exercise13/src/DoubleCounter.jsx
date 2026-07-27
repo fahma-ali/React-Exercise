@@ -25,11 +25,13 @@ const DoubleCount = () => {
   return (
     <div>
       <h1>Double Counter</h1>
+
       <div>
         <h2>CounterA:{state.counterA}</h2>
         <button onClick={() => dispatch({ type: "IncrementA" })}>A+</button>
         <button disabled={state.counterA===0} onClick={() => dispatch({ type: "DecrementA" })}>A-</button>
       </div>
+      
       <div>
         <h2>CounterB:{state.counterB}</h2>
         <button onClick={() => dispatch({ type: "IncrementB" })}>B+</button>
