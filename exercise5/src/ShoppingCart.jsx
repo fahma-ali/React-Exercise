@@ -33,7 +33,9 @@ const ShoppingCart = () => {
     );
   };
   const handleRemove = (id) => {
-    setListCart(listCart.filter((item) => item.id !== id));
+    setListCart(
+      listCart.filter((item) => item.id !== id)
+    );
   };
   const TotalPrice = listCart.reduce(
     (total, item) => total + Number(item.price) * item.qty,
