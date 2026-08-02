@@ -1,0 +1,46 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8f9fc;
+  padding: 15px 20px;
+  margin: 15px 50px;
+  border-radius: 10px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+}
+.checkboxToggle {
+  width: 15px;
+  height: 15px;
+}
+
+.text {
+  width: 200px;
+  text-align: left;
+  font-size: 22px;
+  word-break: break-word;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+}
+.actions button:first-child {
+  color: red;
+}

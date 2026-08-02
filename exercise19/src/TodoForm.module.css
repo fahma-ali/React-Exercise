@@ -1,0 +1,26 @@
+
+h1{
+    font-family: openRunde, "openRunde Fallback", ui-sans-serif, system-ui, sans-serif;
+    font-size: 24px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(31, 31, 31)
+;
+}
+.todoInput{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+    width: 50%;
+    outline: none;
+}
+
+.addButton{
+    background-color: blueviolet;
+    color: white;
+    padding-inline: 20px;
+   padding-block: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border:none
+}
