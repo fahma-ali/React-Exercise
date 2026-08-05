@@ -16,7 +16,6 @@ export const Header = () => {
 
       <div className="flex items-center gap-4">
         <span>🔔</span>
-
         <div className="w-9 h-9 rounded-full bg-pink-400 flex items-center justify-center text-white">
           S
         </div>
